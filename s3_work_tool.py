@@ -11,13 +11,13 @@ class App:
         self.botton3.pack()
 
     def open_server_floder(self):
-		start_directory = r'D:'
+		start_directory = r'D:\p4_scm-shanghai.s3graphics.com2666_garydai-x64\Voice\nlp\Source\AppDevbuild\bin\Debug_x64\server'
 		os.system("explorer.exe %s" % start_directory)
     def open_log_floder(self):
-		start_directory = r'D:'
+		start_directory = r'D:\p4_scm-shanghai.s3graphics.com2666_garydai-x64\Voice\nlp\Source\AppDevbuild\bin\Debug_x64\server\log'
 		os.system("explorer.exe %s" % start_directory)
     def open_test_log_floder(self):
-		start_directory = r'D:'
+		start_directory = r'D:\p4_scm-shanghai.s3graphics.com2666_garydai-x64\Voice\nlp\Source\dstestkit\TestSet'
 		os.system("explorer.exe %s" % start_directory)
 
 if __name__ == '__main__':
